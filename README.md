@@ -1,4 +1,4 @@
-# Los - Lithicsoft Office Software (This project was cancelled!)
+# Los - Lithicsoft Office Software (This project was fork from Lithicsoft!)
 Welcome To Los - Lithicsoft Office Software \
 This is Open Source Project
  
@@ -44,3 +44,8 @@ This license will terminate automatically if you fail to comply with its terms. 
 Lithicsoft Organization, Lithicsoft Develop, and Lithicsoft Research would appreciate acknowledgment of the use of this software in your projects or products.
 
 ---
+
+### Note:
+This repo use to study or remake for fun. But it aslo awaly in "Lithicsoft Public License (LSPL) Version 1.0"
+
+Make sure you are read it from main repo
