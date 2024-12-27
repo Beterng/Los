@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>              
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/aadel112/googoose@master/jquery.googoose.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    var o = {
+        filename: 'test.doc'
+    };
+    $(document).googoose(o);
+});
+</script>
+
+</head>
+<body>
+The content that is rendered to a Word doc will need to be wrapped in a div with the classname googoose-wrapper, by default.
+<div class="googoose-wrapper">  
+<p><strong>voice:</strong> During an address to Congress, George Washington said “If you can’t send money, send cigars.” [pause]  Or something like that.  [pause]  There’s no question that Washington was a wise man.  He knew that premium quality cigars are worth their weight in gold. And if he were alive today, he’d be running the country from the lounge at <strong>No Name Cigar Company.</strong> Where the conversation never comes to an end &#8211; and neither does their premier cigar selection. Mingle with legends &#8211; at <strong>No Name Cigar Company.</strong></p> <p>&nbsp;</p> <p>Visit them online at <strong>NoNameWebsite.com</strong></p> 
+</div>
+</body>
+</html>
