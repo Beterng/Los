@@ -12,9 +12,12 @@
         />
         <link rel="stylesheet" href="style.css" />
         <title>Los Word</title>
+
+        
     </head>
     <body>
         <div class="container">
+            <img src="/recs/LOS-logo.png" >
             <h4 id="title">Los Word</h4>
             <div class="controls">
                 <div class="main-controls">
@@ -28,6 +31,9 @@
                         <div class="dropdown-menu">
                             <button id="new-btn" class="dropdown-item">
                                 New
+                            </button>
+                            <button id="doc-btn" class="dropdown-item">
+                                Save as DOC
                             </button>
                             <button id="txt-btn" class="dropdown-item">
                                 Save as TXT
@@ -54,7 +60,7 @@
                 </div>
             </div>
 
-            <div id="content" contenteditable="true" spellcheck="false"></div>
+            <div class="googoose-wrapper" id="content" contenteditable="true" spellcheck="false"></div>
         </div>
 
         <script src="htmltopdf.js"></script>
@@ -63,6 +69,8 @@
             integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
             crossorigin="anonymous"
         ></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>              
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/aadel112/googoose@master/jquery.googoose.js"></script>
         <script src="script.js"></script>
     </body>
 </html>

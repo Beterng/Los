@@ -4,6 +4,7 @@ const italicBtn = document.querySelector("#italic-btn")
 const colorBtn = document.querySelector("#color-btn")
 
 const newBtn = document.querySelector("#new-btn")
+const docBtn = document.querySelector("#doc-btn")
 const txtBtn = document.querySelector("#txt-btn")
 const pdfBtn = document.querySelector("#pdf-btn")
 
@@ -28,6 +29,17 @@ colorBtn.addEventListener("input", () => {
 
 newBtn.addEventListener("click", () => {
     content.innerHTML = ""
+})
+
+docBtn.addEventListener("click", () => {
+    // Using "googoose" from 
+    var value = {
+        filename: filename.value + ".doc"
+    };
+
+    var a = document.createElement('a')
+    a.download = $(document).googoose(value);
+    a.click(); 
 })
 
 txtBtn.addEventListener("click", () => {
