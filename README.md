@@ -5,5 +5,5 @@ Welcome To Los - Lithicsoft Office Software \
  /Excel - Source code for Los Excel \
  /Word - Source code for Los Word
  
-<h2>in development</h2>
-<p>If you want to help this project, contact me via my email in profile.</p>
+<h2>Note</h2>
+<p>This project have been use for study.</p>
